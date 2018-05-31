@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  database: portfolio_dev
+  pool: 5
+  encoding: unicode
+  username: sergey
+  password: qweqweqwe
+
+production:
+  adapter: postgresql
+  database: portfolio_prod
+  pool: 10
+  encoding: unicode

@@ -15,3 +15,13 @@ production:
   encoding: unicode
   host: localhost
   port: 5432
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  timeout: 5000
+  username: "portfolio"
+  password: "desires88"
+  database: "portfoliodb"
+  host:   "/cloudsql/sergey-portfolio"

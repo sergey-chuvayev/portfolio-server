@@ -6,6 +6,7 @@ development:
   username: sergey
   password: qweqweqwe
   host: localhost
+  port: 5432
 
 production:
   adapter: postgresql
@@ -13,3 +14,4 @@ production:
   pool: 10
   encoding: unicode
   host: localhost
+  port: 5432

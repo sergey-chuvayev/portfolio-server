@@ -5,9 +5,11 @@ development:
   encoding: unicode
   username: sergey
   password: qweqweqwe
+  host: localhost
 
 production:
   adapter: postgresql
   database: portfolio_prod
   pool: 10
   encoding: unicode
+  host: localhost
